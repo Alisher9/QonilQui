@@ -13,6 +13,7 @@
 		88BA75BA24AF096700961A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BA75B824AF096700961A10 /* Main.storyboard */; };
 		88BA75BC24AF096900961A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BA75BB24AF096900961A10 /* Assets.xcassets */; };
 		88BA75BF24AF096900961A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BA75BD24AF096900961A10 /* LaunchScreen.storyboard */; };
+		88BA75C724AF2DFB00961A10 /* WelcomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA75C624AF2DFB00961A10 /* WelcomeCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		88BA75BB24AF096900961A10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88BA75BE24AF096900961A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88BA75C024AF096900961A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88BA75C624AF2DFB00961A10 /* WelcomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				88BA75B224AF096700961A10 /* AppDelegate.swift */,
 				88BA75B424AF096700961A10 /* SceneDelegate.swift */,
 				88BA75B624AF096700961A10 /* ViewController.swift */,
+				88BA75C624AF2DFB00961A10 /* WelcomeCollectionViewCell.swift */,
 				88BA75B824AF096700961A10 /* Main.storyboard */,
 				88BA75BB24AF096900961A10 /* Assets.xcassets */,
 				88BA75BD24AF096900961A10 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88BA75B724AF096700961A10 /* ViewController.swift in Sources */,
+				88BA75C724AF2DFB00961A10 /* WelcomeCollectionViewCell.swift in Sources */,
 				88BA75B324AF096700961A10 /* AppDelegate.swift in Sources */,
 				88BA75B524AF096700961A10 /* SceneDelegate.swift in Sources */,
 			);
