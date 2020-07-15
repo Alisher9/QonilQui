@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5FB3E094135993DBAF8D7543 /* Pods_QonilQui.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 31E83C9E9983BE94ACB17147 /* Pods_QonilQui.framework */; };
 		88BA75B324AF096700961A10 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA75B224AF096700961A10 /* AppDelegate.swift */; };
 		88BA75B524AF096700961A10 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA75B424AF096700961A10 /* SceneDelegate.swift */; };
-		88BA75B724AF096700961A10 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA75B624AF096700961A10 /* ViewController.swift */; };
+		88BA75B724AF096700961A10 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88BA75B624AF096700961A10 /* WelcomeViewController.swift */; };
 		88BA75BA24AF096700961A10 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BA75B824AF096700961A10 /* Main.storyboard */; };
 		88BA75BC24AF096900961A10 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88BA75BB24AF096900961A10 /* Assets.xcassets */; };
 		88BA75BF24AF096900961A10 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88BA75BD24AF096900961A10 /* LaunchScreen.storyboard */; };
+		88EED08A24BEE7A800B45BED /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EED08924BEE7A800B45BED /* LoginViewController.swift */; };
+		88EED08C24BF0ABD00B45BED /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 88EED08B24BF0ABC00B45BED /* GoogleService-Info.plist */; };
+		88EED08E24BF1B0C00B45BED /* String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EED08D24BF1B0C00B45BED /* String.swift */; };
+		88EED09024BF1B2F00B45BED /* ViewControllerExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EED08F24BF1B2F00B45BED /* ViewControllerExtension.swift */; };
+		88EED09424BF1B5F00B45BED /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EED09324BF1B5F00B45BED /* ViewExtension.swift */; };
+		88EED09624BF1B8100B45BED /* UIColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88EED09524BF1B8100B45BED /* UIColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		31E83C9E9983BE94ACB17147 /* Pods_QonilQui.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QonilQui.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BA75AF24AF096700961A10 /* QonilQui.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QonilQui.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88BA75B224AF096700961A10 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		88BA75B424AF096700961A10 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		88BA75B624AF096700961A10 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88BA75B624AF096700961A10 /* WelcomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
 		88BA75B924AF096700961A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		88BA75BB24AF096900961A10 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		88BA75BE24AF096900961A10 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		88BA75C024AF096900961A10 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88EED08924BEE7A800B45BED /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		88EED08B24BF0ABC00B45BED /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		88EED08D24BF1B0C00B45BED /* String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = String.swift; sourceTree = "<group>"; };
+		88EED08F24BF1B2F00B45BED /* ViewControllerExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewControllerExtension.swift; sourceTree = "<group>"; };
+		88EED09324BF1B5F00B45BED /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		88EED09524BF1B8100B45BED /* UIColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		C3046E1A8897D88E967737F6 /* Pods-QonilQui.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QonilQui.debug.xcconfig"; path = "Target Support Files/Pods-QonilQui/Pods-QonilQui.debug.xcconfig"; sourceTree = "<group>"; };
+		F7C1285E95E6AE765F969E62 /* Pods-QonilQui.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QonilQui.release.xcconfig"; path = "Target Support Files/Pods-QonilQui/Pods-QonilQui.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +47,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5FB3E094135993DBAF8D7543 /* Pods_QonilQui.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,6 +59,8 @@
 			children = (
 				88BA75B124AF096700961A10 /* QonilQui */,
 				88BA75B024AF096700961A10 /* Products */,
+				C810E86346748E749ACC4602 /* Pods */,
+				E2BAAEB4900C56B286327656 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +77,68 @@
 			children = (
 				88BA75B224AF096700961A10 /* AppDelegate.swift */,
 				88BA75B424AF096700961A10 /* SceneDelegate.swift */,
-				88BA75B624AF096700961A10 /* ViewController.swift */,
-				88BA75B824AF096700961A10 /* Main.storyboard */,
+				88EED08524BEE61200B45BED /* Extensions */,
+				88EED08624BEE63900B45BED /* Model */,
+				88EED08724BEE63E00B45BED /* View */,
+				88EED08824BEE64300B45BED /* Controller */,
 				88BA75BB24AF096900961A10 /* Assets.xcassets */,
 				88BA75BD24AF096900961A10 /* LaunchScreen.storyboard */,
+				88EED08B24BF0ABC00B45BED /* GoogleService-Info.plist */,
 				88BA75C024AF096900961A10 /* Info.plist */,
 			);
 			path = QonilQui;
+			sourceTree = "<group>";
+		};
+		88EED08524BEE61200B45BED /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				88EED08D24BF1B0C00B45BED /* String.swift */,
+				88EED08F24BF1B2F00B45BED /* ViewControllerExtension.swift */,
+				88EED09324BF1B5F00B45BED /* ViewExtension.swift */,
+				88EED09524BF1B8100B45BED /* UIColorExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		88EED08624BEE63900B45BED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		88EED08724BEE63E00B45BED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				88BA75B824AF096700961A10 /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		88EED08824BEE64300B45BED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				88BA75B624AF096700961A10 /* WelcomeViewController.swift */,
+				88EED08924BEE7A800B45BED /* LoginViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		C810E86346748E749ACC4602 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C3046E1A8897D88E967737F6 /* Pods-QonilQui.debug.xcconfig */,
+				F7C1285E95E6AE765F969E62 /* Pods-QonilQui.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E2BAAEB4900C56B286327656 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				31E83C9E9983BE94ACB17147 /* Pods_QonilQui.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +148,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 88BA75C324AF096900961A10 /* Build configuration list for PBXNativeTarget "QonilQui" */;
 			buildPhases = (
+				F63895027BF36F293D080ABA /* [CP] Check Pods Manifest.lock */,
 				88BA75AB24AF096700961A10 /* Sources */,
 				88BA75AC24AF096700961A10 /* Frameworks */,
 				88BA75AD24AF096700961A10 /* Resources */,
+				ECF00319EA93E2839ECDD146 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +202,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				88BA75BF24AF096900961A10 /* LaunchScreen.storyboard in Resources */,
+				88EED08C24BF0ABD00B45BED /* GoogleService-Info.plist in Resources */,
 				88BA75BC24AF096900961A10 /* Assets.xcassets in Resources */,
 				88BA75BA24AF096700961A10 /* Main.storyboard in Resources */,
 			);
@@ -133,12 +210,59 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ECF00319EA93E2839ECDD146 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QonilQui/Pods-QonilQui-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QonilQui/Pods-QonilQui-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QonilQui/Pods-QonilQui-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F63895027BF36F293D080ABA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QonilQui-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		88BA75AB24AF096700961A10 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				88BA75B724AF096700961A10 /* ViewController.swift in Sources */,
+				88EED08A24BEE7A800B45BED /* LoginViewController.swift in Sources */,
+				88BA75B724AF096700961A10 /* WelcomeViewController.swift in Sources */,
+				88EED09024BF1B2F00B45BED /* ViewControllerExtension.swift in Sources */,
+				88EED09624BF1B8100B45BED /* UIColorExtension.swift in Sources */,
+				88EED09424BF1B5F00B45BED /* ViewExtension.swift in Sources */,
+				88EED08E24BF1B0C00B45BED /* String.swift in Sources */,
 				88BA75B324AF096700961A10 /* AppDelegate.swift in Sources */,
 				88BA75B524AF096700961A10 /* SceneDelegate.swift in Sources */,
 			);
@@ -282,6 +406,7 @@
 		};
 		88BA75C424AF096900961A10 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C3046E1A8897D88E967737F6 /* Pods-QonilQui.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -300,6 +425,7 @@
 		};
 		88BA75C524AF096900961A10 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F7C1285E95E6AE765F969E62 /* Pods-QonilQui.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
