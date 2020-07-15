@@ -49,12 +49,6 @@ class LoginViewController: UIViewController {
         sender.titleLabel?.text == "Sign up" ? checkTextFieldsAndSignUp() : checkTextFieldsAndSignIn()
     }
     
-//    private func navigateToMainMenu() {
-//        let storyBoard = UIStoryboard(name: "Topics", bundle:nil)
-//        let topicsVC = storyBoard.instantiateViewController(withIdentifier: "TopicsTableViewController") as! TopicsTableViewController
-//        navigationController?.pushViewController(topicsVC, animated: true)
-//    }
-    
     @objc private func keyboardWillShow(notification: NSNotification) {
         if let keyboardSize =
             (notification.userInfo?[UIResponder.keyboardFrameBeginUserInfoKey] as? NSValue)?.cgRectValue {
@@ -128,7 +122,7 @@ class LoginViewController: UIViewController {
         }
         
         createUser(name: name, email: email, password: password)
-        //navigateToMainMenu()
+       
     }
     
     private func checkTextFieldsAndSignIn() {
@@ -154,7 +148,6 @@ class LoginViewController: UIViewController {
                 let alertController = UIAlertController(title: "Login Failed", message: "Entered email or password is incorrect", preferredStyle: .alert)
                 self.present(alertController, animated: true, completion: nil)
             } else {
-//                self.navigateToMainMenu()
             }
         }
     }
